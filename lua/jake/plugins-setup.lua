@@ -97,7 +97,7 @@ return packer.startup(function(use)
       ts_update()
     end,
   })
-  
+
   -- treesitter
   use({
     "nvim-treesitter/nvim-treesitter",
@@ -116,6 +116,9 @@ return packer.startup(function(use)
 
   -- buffer line
   use({'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'})
+
+  -- github copilot
+  use("github/copilot.vim")
 
   if packer_bootstrap then
     require("packer").sync()

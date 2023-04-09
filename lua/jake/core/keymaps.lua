@@ -54,6 +54,7 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<CR>")
 -- buffer line
 keymap.set("n", "<leader>bn", "<cmd>BufferLineCycleNext<CR>")
 keymap.set("n", "<leader>bb", "<cmd>BufferLineCyclePrev<CR>")
+keymap.set("n", "<leader>bf", "<cmd>BufferLinePick<CR>")
 keymap.set("n", "<leader>bx", "<cmd>BufferLinePickClose<CR>")
 keymap.set("n", "<leader>bxr", "<cmd>BufferLineCloseRight<CR>")
 keymap.set("n", "<leader>bxl", "<cmd>BufferLineCloseLeft<CR>")

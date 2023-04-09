@@ -40,3 +40,14 @@ opt.splitbelow = true
 
 -- considers "-" as part of a word
 opt.iskeyword:append("-")
+
+opt.swapfile = false
+opt.backup = false
+
+-- search settings
+opt.hlsearch = false
+opt.incsearch = true
+
+opt.scrolloff = 8
+
+opt.updatetime = 50

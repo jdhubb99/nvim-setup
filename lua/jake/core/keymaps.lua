@@ -5,8 +5,8 @@ local keymap = vim.keymap
 -- general keymaps
 
 -- save and quit
-keymap.set("n", "<leader>w", ":w<CR>") 
-keymap.set("n", "<leader>q", ":q<CR>") 
+keymap.set("n", "<leader>w", ":w<CR>")
+keymap.set("n", "<leader>q", ":q<CR>")
 
 -- opens netrw
 keymap.set("n", "<leader>pv", vim.cmd.Ex)
@@ -30,10 +30,10 @@ keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
 keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width & height
 keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
 
-keymap.set("n", "<leader>bo", ":tabnew<CR>") -- open new tab
-keymap.set("n", "<leader>bx", ":tabclose<CR>") -- close current tab
-keymap.set("n", "<leader>bn", ":tabn<CR>") --  go to next tab
-keymap.set("n", "<leader>bb", ":tabp<CR>") --  go to previous tab
+keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
+keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
+keymap.set("n", "<leader>tn", ":tabn<CR>") --  go to next tab
+keymap.set("n", "<leader>tb", ":tabp<CR>") --  go to previous tab
 
 
 -- plugin keymaps
@@ -50,3 +50,11 @@ keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<CR>")
 keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<CR>")
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<CR>")
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<CR>")
+
+-- buffer line
+keymap.set("n", "<leader>bn", "<cmd>BufferLineCycleNext<CR>")
+keymap.set("n", "<leader>bb", "<cmd>BufferLineCyclePrev<CR>")
+keymap.set("n", "<leader>bx", "<cmd>BufferLinePickClose<CR>")
+keymap.set("n", "<leader>bxr", "<cmd>BufferLineCloseRight<CR>")
+keymap.set("n", "<leader>bxl", "<cmd>BufferLineCloseLeft<CR>")
+

@@ -6,13 +6,13 @@ end
 
 local luasnip_status, luasnip = pcall(require, "luasnip")
 
-if not luasnip_status then 
+if not luasnip_status then
   return
 end
 
 local lspkind_status, lspkind = pcall(require, "lspkind")
 
-if not lspkind_status then 
+if not lspkind_status then
   return
 end
 

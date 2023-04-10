@@ -69,3 +69,5 @@ keymap.set("n", "<leader>bx", "<cmd>BufferLinePickClose<CR>")
 keymap.set("n", "<leader>bxr", "<cmd>BufferLineCloseRight<CR>")
 keymap.set("n", "<leader>bxl", "<cmd>BufferLineCloseLeft<CR>")
 
+-- undo tree
+keymap.set("n", "<leader>u", "<cmd>UndotreeToggle<CR>")

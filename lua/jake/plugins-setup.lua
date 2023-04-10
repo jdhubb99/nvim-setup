@@ -120,6 +120,9 @@ return packer.startup(function(use)
   -- github copilot
   use("github/copilot.vim")
 
+  -- undo tree
+  use("mbbill/undotree")
+
   if packer_bootstrap then
     require("packer").sync()
   end

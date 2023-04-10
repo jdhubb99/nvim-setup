@@ -123,6 +123,9 @@ return packer.startup(function(use)
   -- undo tree
   use("mbbill/undotree")
 
+  -- harpoon
+  use("ThePrimeagen/harpoon")
+
   if packer_bootstrap then
     require("packer").sync()
   end

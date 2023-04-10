@@ -1,4 +1,4 @@
-local opt = vim.opt 
+local opt = vim.opt
 
 -- block cursor
 opt.guicursor = ""
@@ -32,7 +32,7 @@ opt.signcolumn = "yes"
 opt.backspace = "indent,eol,start"
 
 -- clipboard
--- opt.clipboard:append("unnamedplus")
+opt.clipboard:append("unnamedplus")
 
 --split windows
 opt.splitright = true
